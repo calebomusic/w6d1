@@ -1,0 +1,30 @@
+.first-tower, .second-tower, .third-tower {
+  float: left;
+  list-style-type: none;
+  border-bottom: 20px solid purple;
+  margin: 5px;
+  width: 126px;
+}
+.first-tower:hover, .second-tower:hover, .third-tower:hover {
+  border-bottom-color: green;
+}
+
+li {
+  height: 40px;
+  border-radius: 10px;
+}
+
+.stone-1 {
+  background-color: red;
+  width: 40px;
+  margin-left: 20px;
+}
+.stone-2 {
+  background-color: blue;
+  width: 60px;
+  margin-left: 10px;
+}
+.stone-3 {
+  background-color: yellow;
+  width: 80px;
+}

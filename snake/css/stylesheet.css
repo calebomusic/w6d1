@@ -1,0 +1,28 @@
+.empty-row {
+  height: 200px;
+  width: 100%;
+}
+
+.snake {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  float: left;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px black solid;
+  background-color: white;
+}
+
+.snake-body {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}

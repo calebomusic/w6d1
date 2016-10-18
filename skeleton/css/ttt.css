@@ -1,0 +1,39 @@
+.grid {
+  border: solid 5px gray;
+  list-style-type: none;
+  width: 600px;
+  height: 600px;
+}
+
+.grid li {
+  border : solid 2px white;
+  width: 180px;
+  height: 180px;
+}
+
+.unselected {
+  background-color: silver;
+}
+
+.grid li:hover {
+  background-color: yellow;
+}
+
+.first, .second, .third {
+  float: left;
+}
+
+.o-cell {
+  background-color: blue;
+  color: white;
+}
+
+.x-cell {
+  background-color: orange;
+}
+
+.o-cell, .x-cell {
+  font-size: 150px;
+  text-align: center;
+  font-family: arial;
+}
